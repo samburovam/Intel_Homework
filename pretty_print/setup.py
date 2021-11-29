@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "get_time_pp=time_namespace.pp_package.pp_module:main",
+            "get_time_pp=time_namespace.pp_package.pp_module:pretty_print",
         ]
     },
     namespace_packages=['time_namespace']
