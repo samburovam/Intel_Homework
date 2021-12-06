@@ -5,4 +5,4 @@ def pretty_time():
     formatted_time = datetime.fromtimestamp(time()).strftime("%Y-%m-%d %H:%M:%S")
     return formatted_time
 def pretty_print():
-    print(pretty_print())
+    print(pretty_time())
